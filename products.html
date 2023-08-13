@@ -60,6 +60,21 @@
             margin-right: 20px;
         }
 
+        .purchase-button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-top: 10px;  /* Added to separate it from the product description */
+        }
+
+        .purchase-button:hover {
+            background-color: #555;
+        }
+
         footer {
             text-align: center;
             padding: 20px;
@@ -86,25 +101,14 @@
 
     <!-- Sample Product 1 -->
     <div class="product">
-        <img src="path-to-image1.jpg" alt="Product 1 Name">
+        <img src="C:/Users/Sapre/Downloads/Shiny-Diamond.png" alt="Brilliant Cut Diamonds">
         <div>
-            <h3>Product 1 Name</h3>
-            <p>Product 1 Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <p>Price: $100</p>
+            <h3>Brilliant cut diamonds</h3>
+            <p>This product has Brilliant cut diamonds.</p>
+            <!-- Purchase Button -->
+            <button class="purchase-button" onclick="alert('Purchase initiated for Brilliant cut diamonds!')">Purchase</button>
         </div>
     </div>
-
-    <!-- Sample Product 2 -->
-    <div class="product">
-        <img src="path-to-image2.jpg" alt="Product 2 Name">
-        <div>
-            <h3>Product 2 Name</h3>
-            <p>Product 2 Description. Sed sit amet urna id ante faucibus consequat nec non est.</p>
-            <p>Price: $150</p>
-        </div>
-    </div>
-
-    <!-- Add more products in a similar pattern -->
 
 </div>
 
